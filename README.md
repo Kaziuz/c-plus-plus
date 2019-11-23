@@ -2,5 +2,5 @@ Importante
 ---------------
 
 **para compilar el cpp** `g++ name_archive.cpp`.
-\newline
+<br />
 **para ejecutar el compilador** `./name_archive.0`.
