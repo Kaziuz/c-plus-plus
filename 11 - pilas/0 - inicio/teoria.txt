@@ -1,0 +1,21 @@
+// concepto de pila (stack) o estrcuturas de datos donde su acceso es de tipo LIFO: 
+// input first output -> el último en entrar es el primero en salir
+
+// una pila es una estrcutura de datos de entradas ordenadas, tales que solo se
+// pueden introducir y eliminar por un extremo, llamado cima.
+
+/////////////////////
+// agase de cuenta tener una jarra y echar rodajas de piñas, cada piña va a quedar una encima de la otra
+// entonces si entraron 20 rodajas de piñas, la piña 20 es la primera que sale.
+// explicación detallada https://www.youtube.com/watch?v=joAw2jWgZqA&list=PLWtYZ2ejMVJlUu1rEHLC0i_oibctkl0Vh&index=96
+/////////////////////
+
+OPERACIONES 
+// las operaciones usuales en la pila son insertar y quitar. la operación INSERTAR (PUSH) añade un elemento
+// en la cima de la pila y la operación QUITAR (POP) elimina o saca un elemento de la pila.
+
+Explicación
+
+una pila básicamente se compone de nodos, cada nodo esta compuesto de DATO: puede ser float, int, char y un *puntero que apunta
+hacua el otro nodo... una pila normalmente son variables struct
+

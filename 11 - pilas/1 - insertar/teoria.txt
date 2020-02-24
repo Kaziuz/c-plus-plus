@@ -1,0 +1,43 @@
+INSERTAR ELEMENTOS EN UNA PILA 
+:: explicaicón detallada -> https://www.youtube.com/watch?v=tq3Th-zqeA4&list=PLWtYZ2ejMVJlUu1rEHLC0i_oibctkl0Vh&index=97
+
+//////////////////////////
+RECORDAR: una pila tiene la siguiente forma
+dato
+*nodo_next
+//////////////////////////
+
+para insertar elementos en una pila, solo hay que seguir 4 pasos:
+1. Crear el espacio en memoria para almacenar un nodo. -> palabra NEW para crear arrays
+2. Cargar el valor dentro del nodo(dato)
+3. Cargar el puntero pila dentro del nodo(*nodo_next) // rellenamos el puntero
+    4. Asignar el nuevo nodo a pila
+
+////////////////////////////
+
+Explicación en detalle de los nodos:
+
+DESCRIPCIÓN PASO 1: Crear el espacio en memoria para almacenar un nodo
+a. Creo una variable de tipo puntero null
+    pila = null;
+b. Creamos un nuevo nodo
+    Nodo *nuevo_nodo = new Nodo(); reservamos espacio en memoria para un nuevo nodo
+c. Agregamos una pila
+    creamos una función de tipo void que tiene dos parametros: uno de tipo Nodo y otro del dato
+
+DESCRIPCIÓN PASO 2: Cargar el valor dentro del nodo(dato)
+a. Llenamos el dato
+    nuevo_nodo -> dato = 10;
+b. Llenamos el dato 
+    Para llenar el dato usamos una función con dos parametros: uno de tipo Nodo y otro del dato
+
+DESCRIPCIÓN PASO 3: Cargar el puntero pila dentro del nodo(*siguiente)
+a. Llenamos el puntero
+    nuevo_nodo -> siguiente = pila;
+b. Agregamos la pila
+    Para agregar la pila usamos una función con dos parametros: uno de tipo Nodo y otro del dato
+
+DESCRIPCIÓN PASO 4: Asignar el nuevo nodo a pila
+a. Tenemos que hacer que pila sea igual al nuevo nodo, en este punto vamos adquiriendo la forma de escalera 
+    y el puntero siempre señala hacia la posición que esta mas abajo en la pila
+    pila = nuevo_nodo;
